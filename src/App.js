@@ -24,7 +24,10 @@ function App() {
       <div className="advice-section">
       <h1>Random Advice Generator</h1>
       <br />
+      <div className="advice">
+
       <h2>"{state.advice}"</h2>
+      </div>
       <button onClick={onClick}>Click For Advice</button>
       </div>
     </div>
