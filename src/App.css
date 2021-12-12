@@ -19,19 +19,29 @@
   justify-content: center;
 }
 h1 {
-  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  font-size: 60px;
 }
 .advice {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: white;
-  border: 20px solid #F43B86;
+  border: 20px solid white;
   border-radius: 20px;
   min-height: 250px;
   width: 75%;
 }
+.advice-text {
+  color: #11052C;
+}
 @media screen and (max-width: 375px) {
+  h1 {
+    font-size: 38px;
+  }
   h2 {
     display: flex;
     padding: 10px;
@@ -62,5 +72,6 @@ button {
 }
 button:hover {
   cursor: pointer;
+  background-color: white;
   color: #F43B86;
 }
